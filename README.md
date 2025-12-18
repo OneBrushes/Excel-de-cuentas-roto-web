@@ -38,21 +38,27 @@ pnpm dev
 pnpm build
 ```
 
-## 🌐 Despliegue en GitHub Pages
+## 🌐 Despliegue en Vercel
 
-Este proyecto está configurado para desplegarse automáticamente en GitHub Pages mediante GitHub Actions.
+Este proyecto está optimizado para desplegarse en Vercel.
 
-### Configuración:
+### Despliegue Rápido:
 
-1. Ve a tu repositorio en GitHub
-2. Settings → Pages
-3. Source: GitHub Actions
-4. Settings → Secrets and variables → Actions
-5. Añade los secrets:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/OneBrushes/Excel-de-cuentas-roto-web)
+
+### Configuración Manual:
+
+1. Ve a [vercel.com](https://vercel.com/signup)
+2. Conecta tu cuenta de GitHub
+3. Importa el repositorio `Excel-de-cuentas-roto-web`
+4. Añade las variables de entorno:
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+5. Haz clic en "Deploy"
 
-Cada push a `main` desplegará automáticamente.
+**Ver guía completa:** [DEPLOY.md](./DEPLOY.md)
+
+---
 
 ## 📝 Estructura del Proyecto
 

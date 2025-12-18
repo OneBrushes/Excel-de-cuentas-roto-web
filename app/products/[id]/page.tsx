@@ -13,7 +13,7 @@ import { SyncShopifyButton } from "@/components/sync-shopify-button"
 import { EditOrderForm } from "@/components/edit-order-form"
 import { EditExpenseForm } from "@/components/edit-expense-form"
 
-export const revalidate = 30 // Added cache revalidation for better performance
+export const revalidate = 30
 
 export default async function ProductDetailPage({ params }: { params: { id: string } }) {
   if (params.id === "new") {
